@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>hangge.com</title>
+  <link rel="stylesheet" href="default.css" type="text/css"> 
+  <script src="jquery.js" charset="utf-8"></script>
+  <script>
+     $(document).ready(function(){
+       $("li").click(function(){
+         var data = $(this).attr("data");
+         $("#image1").attr("src","imgs/"+data);
+       });
+     });
+  </script>
+</head>
+<body>
+   <div class="left">
+     <div class="title">
+       %var_title%
+     </div>
+     <ul>
+       %var_li%
+     <ul>
+   </div>
+   <img id="image1" src="imgs/1.png">
+</body>
+</html>

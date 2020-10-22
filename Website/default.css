@@ -1,0 +1,16 @@
+.left {
+    float:left;
+    width:150px;
+    margin-right: 10px;
+}
+
+.title {
+    background-color: #339718;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+
+li {
+    cursor:pointer;
+}
